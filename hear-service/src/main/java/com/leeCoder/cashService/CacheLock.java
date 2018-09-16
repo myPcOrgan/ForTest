@@ -1,4 +1,4 @@
-package com.xuehai.application.cashService;
+package com.leeCoder.cashService;
 
 
 import com.xuehai.utils.ConstantUtil;

@@ -1,4 +1,4 @@
-package com.xuehai.Utils;
+package com.leeCoder.Utils;
 
 import com.google.zxing.*;
 import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
@@ -19,7 +19,7 @@ import java.util.Hashtable;
  * @date ：Created in 13:59 2018/8/9
  * @description:
  */
-public class QRcode {
+public class QRcodeUtil {
 
     /**
      * 生成包含字符串信息的二维码图片

@@ -12,11 +12,6 @@
     <artifactId>hear-dao</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>com.xuehai</groupId>
-            <artifactId>hear-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
 
         <dependency>
             <groupId>com.xuehai</groupId>

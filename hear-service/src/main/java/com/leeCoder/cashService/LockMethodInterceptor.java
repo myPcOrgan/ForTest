@@ -1,4 +1,4 @@
-package com.xuehai.application.cashService;
+package com.leeCoder.cashService;
 
 import com.xuehai.exception.HearException;
 import org.apache.commons.lang3.StringUtils;
@@ -35,7 +35,7 @@ public class LockMethodInterceptor {
         this.cacheKeyGenerator = cacheKeyGenerator;
     }
 
-    @Around("execution(public * *(..)) && @annotation(com.xuehai.application.cashService.CacheLock)")
+    @Around("execution(public * *(..)) && @annotation(com.leeCoder.cashService.CacheLock)")
     public Object interceptor(ProceedingJoinPoint pjp) throws Throwable {
         MethodSignature signature = (MethodSignature) pjp.getSignature();
         Method method = signature.getMethod();
